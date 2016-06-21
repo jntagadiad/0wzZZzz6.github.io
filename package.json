@@ -1,0 +1,16 @@
+{
+  "name": "profile",
+  "private": true,
+  "version": "1.0.0",
+  "description": "profile project",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0wzZZzz6/0wzZZzz6.github.io.git"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000 -c-1 ./public"
+  }
+}
