@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.5">
   <diagram name="Page-1" id="_FdaXXvj2p4_-IEpBTIR">
-    <mxGraphModel dx="906" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="863" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,8 +10,50 @@
         <mxCell id="975CBxjmqlxdo2UYg8oR-2" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Event info page&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="30" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="975CBxjmqlxdo2UYg8oR-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="975CBxjmqlxdo2UYg8oR-4" target="975CBxjmqlxdo2UYg8oR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="975CBxjmqlxdo2UYg8oR-4" value="Select user in user search page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="975CBxjmqlxdo2UYg8oR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="975CBxjmqlxdo2UYg8oR-6" target="975CBxjmqlxdo2UYg8oR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="975CBxjmqlxdo2UYg8oR-6" value="[Join event page]" style="rounded=0;whiteSpace=wrap;html=1;align=center;spacing=16;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="15" y="280" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="975CBxjmqlxdo2UYg8oR-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="975CBxjmqlxdo2UYg8oR-9" target="975CBxjmqlxdo2UYg8oR-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="975CBxjmqlxdo2UYg8oR-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="975CBxjmqlxdo2UYg8oR-9" target="975CBxjmqlxdo2UYg8oR-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="975CBxjmqlxdo2UYg8oR-9" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;is User has cars?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="390" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="975CBxjmqlxdo2UYg8oR-14" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="155" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="975CBxjmqlxdo2UYg8oR-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="975CBxjmqlxdo2UYg8oR-18" target="975CBxjmqlxdo2UYg8oR-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="975CBxjmqlxdo2UYg8oR-18" value="Display car picker field" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="975CBxjmqlxdo2UYg8oR-21" value="Dont display car picker field" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="975CBxjmqlxdo2UYg8oR-24" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="535" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="975CBxjmqlxdo2UYg8oR-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="975CBxjmqlxdo2UYg8oR-26" target="975CBxjmqlxdo2UYg8oR-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="975CBxjmqlxdo2UYg8oR-26" value="Complete the join event form" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="975CBxjmqlxdo2UYg8oR-28" value="Validate and submit" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
